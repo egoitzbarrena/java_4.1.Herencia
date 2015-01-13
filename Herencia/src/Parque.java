@@ -15,7 +15,7 @@ public class Parque extends EspacioPublico {
 	
 	public Integer getIdParque (){
 		
-		return idParque;
+		return this.idParque;
 	}
 	
 	public void setIdParque(Integer id){

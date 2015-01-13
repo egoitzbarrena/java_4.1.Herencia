@@ -20,47 +20,47 @@ public EspacioPublico(String calle2, String nombre2, String ciudad2,
 
 public String  getCalle(){
 
-	return calle;
+	return this.calle;
 
 }
 
 	
 public void setCalle(String ca){
 
-	calle=ca;
+	this.calle=ca;
 
 }
 
 public Integer getTelefono(){
 	
-	return telefono;
+	return this.telefono;
 }
 
 public void setTelefono(Integer  telf){
 
-	telefono=telf;
+	this.telefono=telf;
 
 }
 
 public String  getNombre(){
 	
-	return nombre;
+	return this.nombre;
 }
 
 public void setNombre(String  nom){
 
-	nombre=nom;
+	this.nombre=nom;
 
 }
 
 public String  getCiudad(){
 	
-	return ciudad;
+	return this.ciudad;
 }
 
 public void setCiudad(String  ciu){
 
-	ciudad=ciu;
+	this.ciudad=ciu;
 
 }
 

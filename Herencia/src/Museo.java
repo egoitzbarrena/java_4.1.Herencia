@@ -15,7 +15,7 @@ public class Museo extends EspacioPublico {
 
 
 	public Integer getIdMuseo() {
-		return idMuseo;
+		return this.idMuseo;
 	}
 
 
@@ -26,7 +26,7 @@ public class Museo extends EspacioPublico {
 
 
 	public Double getPrecio() {
-		return precio;
+		return this.precio;
 	}
 
 

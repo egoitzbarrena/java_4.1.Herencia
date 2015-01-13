@@ -12,7 +12,7 @@ public class Polideportivo extends EspacioPublico {
 	}
 
 	public Integer getIdPolideportivo() {
-		return idPolideportivo;
+		return this.idPolideportivo;
 	}
 
 	public void setIdPolideportivo(Integer idPolideportivo) {
