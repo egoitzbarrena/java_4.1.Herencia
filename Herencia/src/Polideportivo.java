@@ -7,7 +7,7 @@ public class Polideportivo extends EspacioPublico {
 	
 	public Polideportivo (String calle, String nombre,String ciudad, Integer telefono, Integer idpolideportivo){
 		super (calle,nombre,ciudad,telefono);
-		this.setIdPolideportivo(idpolideportivo);
+		this.idPolideportivo = idpolideportivo;
 		
 	}
 
